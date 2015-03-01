@@ -23,12 +23,12 @@ zf.close()
 print ("Completed")
 	
 
-#dane do logowania 
+#MySQL login 
 
-DB_HOST = 'localhost'
-DB_USER = 'root'
-DB_USER_PASSWORD = 'shinigami'
-DB_NAME = 'haw'
+DB_HOST = 'host'
+DB_USER = 'user'
+DB_USER_PASSWORD = 'password'
+DB_NAME = 'name'
 BACKUP_PATH = '/root/backuper'
 
 
@@ -77,6 +77,6 @@ print "Backup script completed"
 print "Your backups has been created in '" + PATH + "' directory"
 
 
-#prznoszenie pliku 
+ 
 
 #subprocess.call("mv /root/backup.zip /root/
